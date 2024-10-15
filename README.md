@@ -9,6 +9,8 @@ Returns an array, however I don't fully understand what it returns.<br>
 It is said to return `elements` in this line: `return self._process_anime_list_info(elements)`<br>
 However, I think it is simply an array of items type `AnimeInfo` which is another class, <br>
 the `search` method is within `AnimeFLV` class.<br>
+- I tried to validate the user input for search, however, the method already return completed matches and incomplete ones<br>
+it just doesn't return anything if a word is mispelled.
 - Then, I used a for loop to iterate over the list `elements`.
 - 
 
