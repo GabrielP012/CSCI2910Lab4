@@ -12,5 +12,8 @@ the `search` method is within `AnimeFLV` class.<br>
 - I tried to validate the user input for search, however, the method already return completed matches and incomplete ones<br>
 it just doesn't return anything if a word is mispelled.
 - Then, I used a for loop to iterate over the list `elements`.
+- Exception handling, the next code segment will be inside a exception statement.
+- Since the user knows the search results, it can pick one result by typing the index.<br>
+I am validating the input here as I want to prevent the user from typing a non-integer and therefore call for an exception.
 - 
 
