@@ -2,5 +2,5 @@
 This is a coding Lab using web APIs for CSCI 2910.
 
 ## Process Log
-- The API doc states how to used/call the API:
-'with AnimeFLV() as api:'
+- The API doc states how to used/call the API:<br>
+""with AnimeFLV() as api:""
