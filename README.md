@@ -15,5 +15,5 @@ it just doesn't return anything if a word is mispelled.
 - Exception handling, the next code segment will be inside a exception statement.
 - Since the user knows the search results, it can pick one result by typing the index.<br>
 I am validating the input here as I want to prevent the user from typing a non-integer and therefore call for an exception.
-- 
+- Finally, I am using the `get_anime_info` method from the API to get and then display the anime info.
 
