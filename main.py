@@ -9,6 +9,16 @@ with AnimeFLV() as api:
       input_selection = (input('Invalid Number.  Select option: '))
     selection = int(input_selection)
     info = api.get_anime_info(elements[selection].id)
-    info.episodes.reverse()
+    print("\n=====================================================================")
+    print(f"\t\t\t Anime Information\n")
+    print(f"Name: {elements[selection].title}")
+    print(f"Episode Count: {len(info.episodes)}")
+    print(f"\nGenre(s): ")
+    for genre in info.genres:
+      print(f"{genre}")
+    print(f"\nRating: {info.rating}")
+    print(f"Status: {info.debut}\n")
+    print("\n=====================================================================")
+
   except Exception as e:
     print(e)
